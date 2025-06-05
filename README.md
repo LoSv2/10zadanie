@@ -16,10 +16,10 @@ https://10zadanie-hrj39d7rx759dsyfvlfdkg.streamlit.app/
 ```
 .
 ├── main.py
-├── frontend/
+├── front/
 │   └── app.py
 ├── requirements.txt
-├── runtime.txt
+├── parameters.json
 └── README.md
 ```
 
@@ -76,9 +76,9 @@ streamlit run app.py
 1. Создайте аккаунт на Streamlit Cloud
 2. Подключите ваш GitHub репозиторий
 3. Установите следующие параметры:
-   - Main file path: `frontend/app.py`
+   - Main file path: `front/app.py`
    - Python version: 3.10
-4. Обновите `BACKEND_URL` в `frontend/app.py`, указав URL вашего развернутого бэкенда
+4. Обновите `BACKEND_URL` в `front/app.py`, указав URL вашего развернутого бэкенда
 5. Разверните приложение
 
 ## Как пользоваться
